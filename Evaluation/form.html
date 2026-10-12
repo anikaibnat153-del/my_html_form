@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Donor Information</h1>
+  <lebel for="first name*"><b>First Name*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="last name*"><b>Last Name*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="company"><b>Company</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="address 1*"><b>Address 1*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="address 2"><b>Address 2</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="city*"><b>City*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <label for="state"><b>State*</b></label>
+  <select id="state" name="state">
+    <option value="" disabled selected>Select a State</option>
+    <option value="NY">New York</option>
+    <option value="CA">California</option>
+    <option value="TX">Texas</option>
+  </select>
+  <br><br>
+
+  <lebel for="zip code*"><b>Zip Code*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+
+  <label for="country"><b>Country*</b></label>
+  <select id="state" name="state">
+    <option value="" disabled selected>Select a Country</option>
+    <option value="BA">Bangladesh</option>
+    <option value="IN">India</option>
+    <option value="SK">South Korea</option>
+  </select>
+  <br><br>
+
+
+  <lebel for="phone"><b>Phone</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="fax"><b>Fax</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+  <lebel for="email*"><b>Email*</b></lebel>
+  <input type="text" id="name" placeholder="" name="name" required><br><br>
+
+
+  <p><b>Donation Amount*</b> <br>
+    <small>(Check a button or type in your amount)</small>
+  </p>
+
+  <input type="radio" name="amount" value="none" checked> None
+  <input type="radio" name="amount" value="50"> $50
+  <input type="radio" name="amount" value="75"> $75
+  <input type="radio" name="amount" value="100"> $100
+  <input type="radio" name="amount" value="250"> $250
+  <input type="radio" name="amount" value="other"> Other
+
+  <br>
+
+  <label><b>Other Amount $</b></label>
+  <input type="text" name="other_amount">
+
+  <br>
+
+  <p><b>Recurring Donation</b> <br>
+    <small>(Check if yes)</small>
+  </p>
+
+  <input type="checkbox" name="recurring">
+  <label>I am interested in giving on a regular basis.</label>
+
+  <br>
+
+  <label>Monthly Credit Card $</label>
+  <input type="text" name="monthly_amount" size="8">
+
+  <label>For</label>
+  <input type="text" name="months" size="5">
+  <label>Months</label>
+
+
+</body>
+
+</html>
